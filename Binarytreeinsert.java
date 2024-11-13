@@ -9,5 +9,16 @@ package com.mycompany.insertmainmethod;
  * @author HP
  */
 public class Binarytreeinsert {
-    
+   
+    int data;  // Data of the node
+    Binarytreeinsert leftChild;  // Points to the left child node
+    Binarytreeinsert rightChild;  // Points to the right child node
+
+    // Constructor to create a new node with given data
+    public Binarytreeinsert(int data) {
+        this.data = data;
+        this.leftChild = null;
+        this.rightChild = null;
+    }
+}
 }
